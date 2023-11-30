@@ -1,0 +1,148 @@
+:root{
+    --section-color-1: hsl(179, 62%, 43%);
+    --section-color-2: hsl(179, 47%, 52%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --typografy-color-1: hsl(218, 22%, 67%);
+    --bg-color: hsl(204, 43%, 93%);
+}
+
+html, body {
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    background-color: var(--bg-color);
+    padding: 2em;
+    overflow: hidden;
+} 
+
+
+.template-price {
+    color: white;
+    border-radius: -10px;
+    box-shadow: 0px 0px 20px -10px hsl(218, 22%, 67%);
+    max-width: 600px;
+    max-height: 800px;
+}
+
+.infos {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    padding: 2em;
+    color: var(--section-color-1);
+    background-color: white;
+    padding-top: 55px;
+}
+
+.infos h2 {
+    font-size: 1.82rem;
+    color: var(--section-color-1);
+    margin: 0;
+}
+
+.infos em {
+    display: inline-block;
+    color: var(--Bright-Yellow);
+    font-size: 17px;
+    font-style: normal;
+    padding-top: 20px;
+    padding-bottom: 9px;
+    
+}
+
+.infos p {
+    margin-bottom: 1em;
+    line-height: 1.5rem;
+    color: var(--typografy-color-1);
+    width: 88%;
+}
+
+
+.Subscription {
+    padding: 1.75em;
+    font-size: 16px;
+    background-color: var(--section-color-1);
+    float: left;
+    border-bottom-left-radius: 10px;
+}
+
+.Subscription h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    background-color: var(--section-color-1);
+} 
+
+.Subscription-price {
+    display: flex;
+    align-items: center;
+    margin: .4em 0 .2em 0;
+    font-size: 2.3em;
+    font-weight: 700;
+    background-color: var(--section-color-1);
+}
+
+.Subscription-price span {
+    padding-left: 1em;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--bg-color);
+}
+
+.btn {
+    background-color: var(--Bright-Yellow);
+    color: white;
+    width: 240px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 20px -16px rgba(0,0,0,1);
+}
+
+.btn a {
+    color: white;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 3px solid var(--Bright-Yellow);
+}
+
+
+.offers {
+    padding: 1.85em;
+    background-color: var(--section-color-2);
+    float: right;
+    width: 304px;
+    height: 247px;
+    border-bottom-right-radius: 10px;
+}
+
+.offers h2 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.offers ul {
+    gap: .2em;
+    padding-left: 0;
+    margin: 1.5em 0 0 0;
+}
+
+.attribuition {
+    color: var(--section-color-1);
+}
+
+.attribuition  a {
+    color: var(--section-color-1);
+}
+
+.attribuition a:hover {
+    text-decoration: underline;
+}
+

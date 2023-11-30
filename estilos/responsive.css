@@ -1,0 +1,34 @@
+
+@media screen and (max-width: 950px) {
+    html, body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-y: scroll;
+        font-size: 15px;
+        border-radius: 0%;
+    } 
+
+    .template-price{
+        display: grid;
+        grid-template-columns: repeat(2. 325px);
+        max-width: max-content;
+        margin-left: 20px;
+    }
+
+    .Subscription {
+        border-bottom-left-radius: 0%;
+    }
+
+    .offers {
+        width: 100%;
+        border-bottom-left-radius: 10px;
+    }
+
+    .attribuition {
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+
